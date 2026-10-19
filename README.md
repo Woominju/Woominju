@@ -18,7 +18,7 @@ starting from multivariate time series and moving toward synthetic data and lear
 ### Undergraduate Researcher — Financial Engineering Lab, HUFS
 *Jun 2025 – Aug 2026 · Advisor: Prof. Hyeongwoo Kong*
 
-**PWTA: Patch-Window Transformer Autoencoder for time-series anomaly detection** — *Undergraduate thesis*
+**[PWTA: Patch-Window Transformer Autoencoder for time-series anomaly detection](https://github.com/Woominju/PWTA)** — *Undergraduate thesis*
 - Built a ~0.15M-parameter patch-based Transformer autoencoder in PyTorch: 32× fewer parameters and 45× less peak memory than Anomaly Transformer.
 - Swept 37+ architecture and hyperparameter settings and found accuracy was flat across them; **the data-side choices moved performance instead.**
 - **Input scaling:** on SMAP and MSL, 42% and 77% of channels are near-constant command flags. Re-normalizing them amplified tiny deviations by ~10⁸ and buried the real signal, so the pipeline keeps each dataset's native scale.
@@ -80,6 +80,8 @@ Languages: Korean (native), English
 
 | Repository | What it is |
 |---|---|
+| [PWTA](https://github.com/Woominju/PWTA) | Undergraduate thesis code: lightweight patch Transformer autoencoder, kurtosis-weighted channel scoring, raw PR-AUC evaluation |
+| [paper-implementations](https://github.com/Woominju/paper-implementations) | Small runnable implementations of papers I read (anomaly detection, NLP, active learning, DPO, robust portfolios, MCTS), linked to my Notion summaries |
 | [streamlit-dashboard](https://github.com/Woominju/streamlit-dashboard) | Interactive data dashboards with Streamlit and Plotly |
 | [deep-learning-coursework](https://github.com/Woominju/deep-learning-coursework) | Deep-learning coursework (2023): ANN, CNN, GAN, transfer learning, Hugging Face |
 | [heart-disease-ann](https://github.com/Woominju/heart-disease-ann) | ANN classifier for heart-disease prediction |
