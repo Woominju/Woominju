@@ -81,7 +81,9 @@ Languages: Korean (native), English
 | Repository | What it is |
 |---|---|
 | [streamlit-dashboard](https://github.com/Woominju/streamlit-dashboard) | Interactive data dashboards with Streamlit and Plotly |
-| [Deep-learning](https://github.com/Woominju/Deep-learning) | Deep-learning coursework (2023): ANN, CNN, GAN, transfer learning, Hugging Face |
-| [11-19-deep-learning-heart](https://github.com/Woominju/11-19-deep-learning-heart) | ANN classifier for heart-disease prediction |
-| [11.26hotel-reservation](https://github.com/Woominju/11.26hotel-reservation) | Hotel booking cancellation dataset (k-fold model in Deep-learning) |
-| [conflict-war](https://github.com/Woominju/conflict-war) | Git collaboration practice: branches, merge conflicts, reverts |
+| [deep-learning-coursework](https://github.com/Woominju/deep-learning-coursework) | Deep-learning coursework (2023): ANN, CNN, GAN, transfer learning, Hugging Face |
+| [heart-disease-ann](https://github.com/Woominju/heart-disease-ann) | ANN classifier for heart-disease prediction |
+| [hotel-reservation-dataset](https://github.com/Woominju/hotel-reservation-dataset) | Hotel booking cancellation dataset (k-fold model in deep-learning-coursework) |
+| [smiling-face-cnn](https://github.com/Woominju/smiling-face-cnn) | CNN classifier for smiling vs. non-smiling faces |
+| [logic-and-programming](https://github.com/Woominju/logic-and-programming) | Python and pandas exercises from the Logic and Programming course |
+| [git-conflict-practice](https://github.com/Woominju/git-conflict-practice) | Git collaboration practice: branches, merge conflicts, reverts |
