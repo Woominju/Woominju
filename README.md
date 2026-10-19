@@ -1,4 +1,4 @@
-# Minju Woo (우민주)
+# Minju Woo
 
 Mathematics undergraduate (double major in Finance & AI) at Hankuk University of Foreign Studies.
 I study **how the data a model sees — its scale, sparsity, structure, and how we evaluate on it — decides what the model can learn**,
