@@ -144,6 +144,7 @@ That is the part of ML I want to keep working on.
 | Repository | Description |
 |---|---|
 | [credit-risk-analysis](https://github.com/Woominju/credit-risk-analysis) | How one IQR clipping rule erased the strongest feature in a loan-approval model (test accuracy 0.65 → 0.79) |
+| [smote-feature-importance-stability](https://github.com/Woominju/smote-feature-importance-stability) | Team project: SMOTE raised F1 but lowered AUROC in all 36 runs, and reshuffled feature importances on Lending Club loans |
 | [simpsons-paradox-regression](https://github.com/Woominju/simpsons-paradox-regression) | Simulation of a regression slope that flips sign when a correlated variable is controlled for |
 
 **Projects & Coursework**
