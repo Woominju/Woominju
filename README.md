@@ -88,7 +88,7 @@ $$
 
 ## 📈 Quantitative Finance Projects
 
-#### [Deep Multi-Factor Model on KOSPI](https://github.com/Woominju/dmfm-kospi) <sub>team project with Sahong Park · Investment Science</sub>
+#### [Deep Multi-Factor Model on KOSPI](https://github.com/Woominju/dmfm-kospi) <sub>team project with Sahong Park · Investment Theory and Optimization</sub>
 - Replicated the Deep Multi-Factor Model (Wei, Dai & Lin, 2022) on 934 KOSPI stocks over 2013–2025: graph attention networks estimate industry and market effects, which are subtracted from each stock's latent context before the factor is formed.
 - Long–short top/bottom-10 portfolio, net of commission, slippage and borrowing costs: **net Sharpe 2.73** vs. 2.18 for the same graphs without neutralization and 1.36 for a linear factor model, positive in all three test sub-periods. The test window overlaps Korea's 2023–2025 short-selling ban, which the README notes.
 
@@ -113,9 +113,10 @@ $$
 
 | | Coursework |
 |---|---|
-| **Mathematics** | Introduction to Analysis I-II · Linear Algebra I-II · Differential Equations · Differential Geometry · Computational Mathematics |
-| **Probability, statistics & optimization** | Statistics I-II · Convex Optimization |
-| **Finance** | Investment Science · Financial Time Series Analysis · Business Analytics |
+| **Mathematics** | Introduction to Analysis I-II · Metric Spaces · Topology · Linear Algebra I-II · Modern Algebra I-II · Differential Equations · Differential Geometry · Computational Mathematics |
+| **Finance** | Financial Mathematics · Financial Time Series Analysis · Investment Theory and Optimization · Financial Markets |
+| **Statistics & optimization** | Statistics I-II · Convex Optimization · Introduction to Operations Research · Statistical Learning with Python |
+| **Data & ML** | Data Mining · Big Data Analysis · Big Data Modeling · Data Structures · Advanced Business Analytics · Finance & AI Capstone |
 
 <br />
 
