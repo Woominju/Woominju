@@ -138,6 +138,7 @@ That is the part of ML I want to keep working on.
 |---|---|
 | [PWTA](https://github.com/Woominju/PWTA) | Code for my undergraduate thesis |
 | [paper-implementations](https://github.com/Woominju/paper-implementations) | Small implementations of papers I read, linked to my Notion notes |
+| [dmfm-kospi](https://github.com/Woominju/dmfm-kospi) | Team project: replicating the Deep Multi-Factor Model (graph-based industry/market neutralization) on 934 KOSPI stocks |
 
 **Data & Evaluation Case Studies**
 
