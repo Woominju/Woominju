@@ -108,7 +108,7 @@ $$
 
 ## 🎓 Education
 
-**Hankuk University of Foreign Studies** — B.S. in Mathematics, double major in Finance & AI
+**Hankuk University of Foreign Studies**, B.S. in Mathematics, double major in Finance & AI
 <sub>Mar 2023 – present · GPA 4.17 / 4.50</sub>
 
 | | Coursework |
@@ -170,7 +170,7 @@ $$
 | Repository | Description |
 |---|---|
 | [PWTA](https://github.com/Woominju/PWTA) | Undergraduate thesis: re-evaluating time-series anomaly detectors under raw point-level PR-AUC |
-| [paper-implementations](https://github.com/Woominju/paper-implementations) | Small implementations of papers I read, linked to my Notion notes |
+| [paper-implementations](https://github.com/Woominju/paper-implementations) | Small implementations of papers I read (e.g. worst-case robust portfolios as a cone program, Anomaly Transformer), linked to my Notion notes |
 | [simpsons-paradox-regression](https://github.com/Woominju/simpsons-paradox-regression) | Simulation of a regression slope that flips sign when a correlated variable is controlled for |
 
 <details>
