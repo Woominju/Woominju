@@ -49,17 +49,19 @@ That is the part of ML I want to keep working on.
 ### Undergraduate Researcher, Financial Engineering Lab, HUFS
 <sub>Jun 2025 – Aug 2026 · advisor: Prof. Hyeongwoo Kong</sub>
 
-#### ⭐ [PWTA: Patch-Window Transformer Autoencoder](https://github.com/Woominju/PWTA) <sub>undergraduate thesis</sub>
+#### ⭐ [PWTA: Patch-wise Transformer Autoencoder](https://github.com/Woominju/PWTA) <sub>undergraduate thesis · [PDF](https://github.com/Woominju/PWTA/blob/main/thesis/PWTA_thesis.pdf)</sub>
 
 <table>
   <tr>
     <td align="center" width="25%"><h3>0.15M</h3><sub>parameters</sub></td>
-    <td align="center" width="25%"><h3>32×</h3><sub>fewer than Anomaly Transformer</sub></td>
-    <td align="center" width="25%"><h3>+0.055</h3><sub>macro PR-AUC over lab baseline</sub></td>
-    <td align="center" width="25%"><h3>5 / 5</h3><sub>seeds, all 4 metrics</sub></td>
+    <td align="center" width="25%"><h3>51 / 110</h3><sub>entities ranked first under raw PR-AUC</sub></td>
+    <td align="center" width="25%"><h3>10.8×</h3><sub>Anomaly Transformer's raw PR-AUC on SMD</sub></td>
+    <td align="center" width="25%"><h3>1.00×</h3><sub>random: Anomaly Transformer at 0.935 point-adjusted F1</sub></td>
   </tr>
 </table>
 
+- Re-evaluated time-series anomaly detectors with raw point-level PR-AUC instead of point-adjusted F1. Anomaly Transformer reproduced its published point-adjusted F1 (0.935 on MSL, 0.965 on SMAP) but scored at the random baseline; on SWaT, DCdetector output exactly zero for 97.9% of time points.
+- Under the same metric, PWTA ranked first on 51 of 110 entities (mean PR-AUC 0.431 vs. 0.317 for the best classical baseline). It has a clear limit: on SWaT, where attacks stay inside the normal value range, Isolation Forest was better.
 - Built a small patch-based Transformer autoencoder in PyTorch for multivariate time-series anomaly detection (about 0.15M parameters, 32x fewer than Anomaly Transformer).
 - Tried 37+ architecture and hyperparameter settings. Accuracy barely changed, so I focused on the data and the scoring instead.
 - On SMAP and MSL, 42% and 77% of the channels are almost constant. z-score normalization blew up tiny changes in these channels and hid the real signal, so I kept the original scale.
