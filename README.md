@@ -139,6 +139,13 @@ That is the part of ML I want to keep working on.
 | [PWTA](https://github.com/Woominju/PWTA) | Code for my undergraduate thesis |
 | [paper-implementations](https://github.com/Woominju/paper-implementations) | Small implementations of papers I read, linked to my Notion notes |
 
+**Data & Evaluation Case Studies**
+
+| Repository | Description |
+|---|---|
+| [credit-risk-analysis](https://github.com/Woominju/credit-risk-analysis) | How one IQR clipping rule erased the strongest feature in a loan-approval model (test accuracy 0.65 → 0.79) |
+| [simpsons-paradox-regression](https://github.com/Woominju/simpsons-paradox-regression) | Simulation of a regression slope that flips sign when a correlated variable is controlled for |
+
 **Projects & Coursework**
 
 | Repository | Description |
