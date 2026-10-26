@@ -55,12 +55,12 @@ I want to build a more rigorous probabilistic foundation for these problems in g
 
 The minimum-variance portfolio depends on the covariance estimate only through its inverse:
 
-$$
+```math
 w^\star(\Sigma) = \arg\min_{\mathbf{1}^\top w = 1} \; w^\top \Sigma\, w = \frac{\Sigma^{-1}\mathbf{1}}{\mathbf{1}^\top \Sigma^{-1}\mathbf{1}}
-$$
+```
 
 - Wrote the mathematical formulation of the project.
-- When $\Sigma$ is ill-conditioned, a small error in $\hat\Sigma$ is amplified by $\hat\Sigma^{-1}$ and changes the weights a lot, so a covariance model that is accurate in the usual statistical sense can still give a poor portfolio. This is why the model is trained on the decision loss (the realized risk of $w^\star(\hat\Sigma)$) rather than on covariance estimation error alone.
+- When $`\Sigma`$ is ill-conditioned, a small error in $`\hat\Sigma`$ is amplified by $`\hat\Sigma^{-1}`$ and changes the weights a lot, so a covariance model that is accurate in the usual statistical sense can still give a poor portfolio. This is why the model is trained on the decision loss, the realized risk of $`w^\star(\hat\Sigma)`$, rather than on covariance estimation error alone.
 
 #### ⭐ [PWTA: Patch-wise Transformer Autoencoder](https://github.com/Woominju/PWTA) <sub>undergraduate thesis · [PDF](https://github.com/Woominju/PWTA/blob/main/thesis/PWTA_thesis.pdf)</sub>
 
