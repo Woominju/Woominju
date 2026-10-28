@@ -21,7 +21,7 @@ In graduate school I want to study these problems properly, with probability, st
 
 ## 🔭 Research Interests
 
-I am interested in **portfolio decisions built on estimated risk**: how the covariance and factor structure of returns are estimated from financial time series, how errors in those estimates propagate into portfolio weights, and how stochastic models of the market can make this pipeline more reliable.
+I am interested in **portfolio decisions built on estimated risk**: how errors in estimated risk propagate into portfolio weights, and how stochastic models of asset prices and volatility can make portfolio construction more reliable.
 
 <table>
   <tr>
@@ -30,18 +30,8 @@ I am interested in **portfolio decisions built on estimated risk**: how the cova
       <sub>How errors in estimated means and covariances propagate to portfolio weights, and how to build portfolios that hold up against them</sub>
     </td>
     <td width="50%" valign="top">
-      <b>📐 Covariance and risk estimation</b><br />
-      <sub>Estimating large covariance matrices for portfolio and risk management, where the inverse matters as much as the matrix itself</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>📊 Factor models for equity returns</b><br />
-      <sub>Factor structure in cross-sectional returns, and separating industry and market effects from stock-specific signal</sub>
-    </td>
-    <td width="50%" valign="top">
-      <b>📈 Financial time series and stochastic models</b><br />
-      <sub>Time-series and stochastic models of asset returns and volatility, which I want to study more rigorously in graduate school</sub>
+      <b>📈 Stochastic models of asset prices and volatility</b><br />
+      <sub>Continuous-time and time-series models of returns and volatility, which I want to study more rigorously in graduate school</sub>
     </td>
   </tr>
 </table>
