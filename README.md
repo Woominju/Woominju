@@ -21,6 +21,8 @@ In graduate school I want to study these problems properly, with probability, st
 
 ## 🔭 Research Interests
 
+I am interested in **portfolio decisions built on estimated risk**: how the covariance and factor structure of returns are estimated from financial time series, how errors in those estimates propagate into portfolio weights, and how stochastic models of the market can make this pipeline more reliable.
+
 <table>
   <tr>
     <td width="50%" valign="top">
