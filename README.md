@@ -51,7 +51,7 @@ I am interested in **portfolio decisions built on estimated risk**: how the cova
 ## 🧬 Research Experience
 
 ### Undergraduate Researcher, Financial Engineering Lab, HUFS
-<sub>Jun 2025 – Aug 2026 · advisor: Prof. Hyeongwoo Kong</sub>
+<sub>Jun 2025 – present · advisor: Prof. Hyeongwoo Kong</sub>
 
 #### 💼 Decision-focused learning for minimum-variance portfolios <sub>co-author, research report</sub>
 
@@ -61,7 +61,7 @@ The minimum-variance portfolio depends on the covariance estimate only through i
 w^\star(\Sigma) = \arg\min_{\mathbf{1}^\top w = 1} \; w^\top \Sigma\, w = \frac{\Sigma^{-1}\mathbf{1}}{\mathbf{1}^\top \Sigma^{-1}\mathbf{1}}
 ```
 
-- Wrote the mathematical formulation of the project.
+- Reviewed and contributed to the mathematical formulation of the project.
 - When $`\Sigma`$ is ill-conditioned, a small error in $`\hat\Sigma`$ is amplified by $`\hat\Sigma^{-1}`$ and changes the weights a lot, so a covariance model that is accurate in the usual statistical sense can still give a poor portfolio. This is why the model is trained on the decision loss, the realized risk of $`w^\star(\hat\Sigma)`$, rather than on covariance estimation error alone.
 
 #### ⭐ [PWTA: Patch-wise Transformer Autoencoder](https://github.com/Woominju/PWTA) <sub>undergraduate thesis · [PDF](https://github.com/Woominju/PWTA/blob/main/thesis/PWTA_thesis.pdf)</sub>
@@ -80,11 +80,11 @@ w^\star(\Sigma) = \arg\min_{\mathbf{1}^\top w = 1} \; w^\top \Sigma\, w = \frac{
 - On SMAP and MSL, 42% and 77% of the channels are almost constant; z-score normalization divides them by a standard deviation near zero and hides the real signal, so the original scale was kept. Improvements were only counted if they held on all 5 seeds.
 
 #### 📐 Adaptive Kurtosis-Weighted Channel Fusion <sub>co-first author, manuscript in preparation</sub>
-- Studied channel dilution: an anomaly usually affects only a few channels, so averaging errors over all channels weakens it. Weighting channels by the kurtosis of their errors favours channels that are usually quiet and then spike.
-- Analyzed when this fails (dense anomalies, e.g. 28% of PSM), did the mathematical validation, and ran the evaluation on 10 existing detectors.
+- Co-developed a training-free weighting rule that weights channel-wise anomaly scores by their excess kurtosis. An anomaly usually affects only a few channels, so averaging errors over all channels weakens it; kurtosis weighting favours channels that are usually quiet and then spike.
+- Led the theoretical analysis of when kurtosis weighting improves separation over uniform weighting under a sparse-channel model, including when it fails (dense anomalies, e.g. 28% of PSM), and ran the evaluation on 10 existing detectors.
 
-#### 🏦 Synthetic data for loan-approval models <sub>industry collaboration with KCIS</sub>
-- Took part in research on generating synthetic data to train loan-approval models.
+#### 🏦 Synthetic data for loan-approval models <sub>industry project with KCIS · Mar – Jun 2026</sub>
+- Analyzed real-world credit data and compared model performance on real vs. synthetic data.
 
 <br />
 
@@ -114,11 +114,11 @@ w^\star(\Sigma) = \arg\min_{\mathbf{1}^\top w = 1} \; w^\top \Sigma\, w = \frac{
 ## 🎓 Education
 
 **Hankuk University of Foreign Studies**, B.S. in Mathematics, double major in Finance & AI
-<sub>Mar 2023 – present · GPA 4.17 / 4.50</sub>
+<sub>Mar 2023 – Feb 2027 (expected) · GPA 4.17 / 4.50</sub>
 
 | | Coursework |
 |---|---|
-| **Mathematics** | Introduction to Analysis I-II · Metric Spaces · Topology · Linear Algebra I-II · Modern Algebra I-II · Differential Equations · Differential Geometry · Computational Mathematics |
+| **Mathematics** | Introduction to Analysis I-II · Metric Spaces · Topology · Linear Algebra I-II · Modern Algebra I-II · Differential Equations · Differential Geometry · Computational Mathematics · Probability Theory (in progress) |
 | **Finance** | Financial Mathematics · Financial Time Series Analysis · Investment Theory and Optimization · Financial Markets |
 | **Statistics & optimization** | Statistics I-II · Convex Optimization · Introduction to Operations Research · Statistical Learning with Python |
 | **Data & ML** | Data Mining · Big Data Analysis · Big Data Modeling · Data Structures · Advanced Business Analytics · Finance & AI Capstone |
@@ -127,9 +127,11 @@ w^\star(\Sigma) = \arg\min_{\mathbf{1}^\top w = 1} \; w^\top \Sigma\, w = \frac{
 
 ## 🧑‍🏫 Teaching & Activities
 
-- Teaching assistant for Mathematics for Artificial Intelligence, HUFS (Spring 2026)
+- Teaching assistant, Mathematics for Artificial Intelligence, HUFS (Spring 2026)
+- Teaching mentor, Calculus, HUFS (Spring 2024)
 - Presented research updates at the lab's biweekly seminars
-- Attended ICAIF 2025 (ACM International Conference on AI in Finance) and the 2026 Korean Operations Research and Management Science Society Conference
+- Attendee, KORMS–KIIE 2026 Spring Joint Conference, Gyeongju, Korea (Jun 2026)
+- Attendee, ACM ICAIF 2025 (International Conference on AI in Finance), Singapore (Nov 2025)
 
 <br />
 
@@ -153,6 +155,8 @@ w^\star(\Sigma) = \arg\min_{\mathbf{1}^\top w = 1} \; w^\top \Sigma\, w = \frac{
   <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
   <img src="https://img.shields.io/badge/CVXPY-475569?style=flat-square" alt="CVXPY" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R" />
+  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
