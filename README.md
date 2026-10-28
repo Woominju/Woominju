@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:1e3a8a,100:3b82f6&height=210&section=header&text=Minju%20Woo&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Mathematics%20%C2%B7%20Financial%20Engineering%20%C2%B7%20Time-Series%20ML&descSize=17&descAlignY=58&animation=fadeIn" alt="Minju Woo" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:1e3a8a,100:3b82f6&height=210&section=header&text=Minju%20Woo&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Mathematics%20%C2%B7%20Portfolio%20Optimization%20%C2%B7%20Financial%20Time%20Series&descSize=17&descAlignY=58&animation=fadeIn" alt="Minju Woo" width="100%" />
 </p>
 
 <p align="center">
@@ -11,11 +11,11 @@
 <br />
 
 I'm a mathematics undergraduate at Hankuk University of Foreign Studies, with a double major in Finance & AI, and an undergraduate researcher in the Financial Engineering Lab.
-My work so far sits between financial mathematics and machine learning: portfolio optimization, factor models for equity returns, credit-risk modeling, and multivariate time series.
+My work so far sits between financial mathematics and data: portfolio optimization, factor models for equity returns, credit-risk modeling, and financial time series.
 
-The common thread is that the mathematical setup decides more than the model does.
-In portfolio optimization, a small error in an estimated covariance matrix is amplified by its inverse; in time-series anomaly detection, the choice of evaluation metric decided which method looked best.
-I want to build a more rigorous probabilistic foundation for these problems in graduate school.
+The question I keep coming back to is how estimation error turns into bad decisions.
+In a minimum-variance portfolio, a small error in the estimated covariance matrix is amplified by its inverse and changes the weights a lot; in my thesis, the evaluation metric alone decided which model looked best.
+In graduate school I want to study these problems properly, with probability, stochastic analysis and statistics.
 
 <br />
 
@@ -24,22 +24,22 @@ I want to build a more rigorous probabilistic foundation for these problems in g
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>💼 Portfolio construction</b><br />
-      <sub>Portfolio optimization under estimation error, and learning models through the decisions they lead to</sub>
+      <b>💼 Portfolio construction under estimation error</b><br />
+      <sub>How errors in estimated means and covariances propagate to portfolio weights, and how to build portfolios that hold up against them</sub>
     </td>
     <td width="50%" valign="top">
-      <b>📊 Factor models for equity returns</b><br />
-      <sub>Cross-sectional return prediction, and separating industry and market effects from stock-specific signal</sub>
+      <b>📐 Covariance and risk estimation</b><br />
+      <sub>Estimating large covariance matrices for portfolio and risk management, where the inverse matters as much as the matrix itself</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <b>📈 Financial and multivariate time series</b><br />
-      <sub>Modeling, anomaly detection, and walk-forward evaluation on data that changes over time</sub>
+      <b>📊 Factor models for equity returns</b><br />
+      <sub>Factor structure in cross-sectional returns, and separating industry and market effects from stock-specific signal</sub>
     </td>
     <td width="50%" valign="top">
-      <b>📏 Rigorous evaluation</b><br />
-      <sub>Metrics and validation schemes that can make a weak model look strong, and how to avoid them</sub>
+      <b>📈 Financial time series and stochastic models</b><br />
+      <sub>Time-series and stochastic models of asset returns and volatility, which I want to study more rigorously in graduate school</sub>
     </td>
   </tr>
 </table>
@@ -94,6 +94,9 @@ w^\star(\Sigma) = \arg\min_{\mathbf{1}^\top w = 1} \; w^\top \Sigma\, w = \frac{
 
 #### [Does SMOTE change what a credit model thinks matters?](https://github.com/Woominju/smote-feature-importance-stability) <sub>team project with Suyeon Oh · Business Analytics</sub>
 - Walk-forward study on 1.76M Lending Club loans (train ≤ year *t*, test year *t*+1). SMOTE lowered AUROC and average precision in all 36 comparisons; F1 rose only because of the fixed 0.5 threshold. It also reshuffled feature-importance ranks, and the README discusses why interpolating label-encoded categoricals is a likely cause.
+
+#### [Robust portfolio optimization (worst-case)](https://github.com/Woominju/paper-implementations/tree/main/finance/robust_portfolio)
+- Implemented the worst-case approach to mean-variance optimization with an ellipsoidal uncertainty set for expected returns, solved as a second-order cone program in CVXPY, and compared it with the plain mean-variance portfolio.
 
 #### [Credit-risk preprocessing case study](https://github.com/Woominju/credit-risk-analysis)
 - An IQR clipping rule applied to every numeric column set Q1 = Q3 for the binary credit-history flag, rewrote every bad-credit applicant as "meets guidelines", and erased the strongest feature. The original pipeline scored at or below the majority-class baseline (0.65); clipping only the continuous columns raised test accuracy to 0.79.
